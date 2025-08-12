@@ -77,5 +77,8 @@ kramdown:
 sass:
   style: compressed
 
-gems:
+plugins:
+  - jekyll-bookshop
+  - jekyll-postcss-v2
+  - jekyll-local-assign
   - octopress-paginate
